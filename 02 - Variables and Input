@@ -12,3 +12,57 @@ print("The score is" ,TeamOneScore, TeamTwoScore)
 
 Explanation
 The code prints lets play fifa the game has now begun the score is 0 0 becasue at the beggining of the code, it uses the print function to print lets play fifa and uses variables for the score and then prints out the variables
+
+
+2a. The name of a function used in the code above is: 
+
+2b. The name of a variable used in the code above is: team score 1
+
+2c. The name of a different variable used in the code above is: team score 2
+
+gcsecs.com/inputs.html 
+
+name = input("name")
+print("hello," ,name)
+it prints name, then you type in your name and it types back hello and your name that you typed in
+
+age= int(input("Enter your age: ")) 
+
+print(“You are, " , age) 
+it asks you to enter your age, then you type in your age and it replies saying your age is and then what age you typed in
+name = input("Enter your name: ") 
+
+age= int(input("Enter your age: ")) 
+
+print("Hello " ,  name , " You are, " , age) 
+it asks you for your name and age, then you type in your name and age and it replies with hello "" and you are " (whatever you typed in)
+
+
+name = input("Enter your name: ") 
+
+colour= input("Enter your favourite colour: ") 
+
+print("Hello " ,  name , " Your favourite colour is, " , colour) 
+
+
+In line 1, the name of the variable is 
+name
+ 
+
+In line 1 the name of the function is 
+
+input
+
+In line 2, the name of the variable is 
+
+colour 
+
+In line 2 the name of the function is 
+
+ input
+
+In line 3 the name of the function is 
+
+ 
+
+ 
