@@ -87,6 +87,27 @@ Calculate a 10% discount (Price multiplied by 0.9) and print: "The new price for
 
            print("The new price for", Item, "is", price * 0.9)
 
+A user wants to enter a "Member Code" which is just a single letter. 
+
+Ask the user for their Initial (Character) 
+
+Ask for their Age (Integer) 
+
+Create a Boolean variable called is_allowed. It should be True if the user is over 18. 
+
+Print: "Access Granted: [is_allowed]". 
+
+ 
+
+ 
+
+Answer: 
+Initial = input("what is your first initial?")
+
+Age = int(input("what is your age?))
+
+if age < 18
+
 
 
 
