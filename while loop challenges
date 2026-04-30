@@ -1,0 +1,73 @@
+Challenge 1
+password = ""
+while password != "kebab":
+  password = input('Please enter a password: ')
+print ("correct password accepted")
+
+challenge 2
+answer = "N"
+while answer != "Y":
+  print("Are we there yet?")
+  answer = str(input("Please respond, y or n: ").upper())
+print("Yay! We are there!!")
+
+challenge 3 
+StayInLoop = 1
+while StayInLoop != 2:
+  print("Press 1 for  choice or 2 to exit")
+  StayInLoop = int(input("Please respond, 1 or 2: "))
+
+print("exited")
+
+challenge 4
+loopCount = 1
+while loopCount < 11:
+  print("Loop", loopCount)
+  loopCount = loopCount + 1
+print("End")
+
+challenge 5
+username = ""
+while not username:
+    username = str(input("Enter username: "))
+
+print("Your username," ,username, "has been accepted")
+
+challenge 6
+import random
+
+number=random.randint(1,10)
+userGuess=int(input("Guess the number between 1-10"))
+
+while guess!=number:
+  if number < userGuess:
+      guess=int(input("Guess to High, try again: "))
+  else:
+      guess=int(input("Guess to Low, try again: "))
+
+print("Yay! You got it correct!!!")
+
+challenge 7
+timesTable = 1
+UserChoice = int(input("Enter a times-Tables: "))
+
+while timesTable < 13:
+    print(timesTable , "x", UserChoice, "=", timesTable*Userchoice)
+    timesTable = timesTable + 1 
+print("showing the", UserChoice, "times table")
+
+challenge 8
+
+import random
+number = random.randint(1,10)
+attempts = 0
+guess = ""
+
+while attempts <5 and number != guess :
+    guess=int(input("guess the number :"))
+    attempts = attempts + 1
+
+if guess == number:
+  print("yay correct guess")
+else:
+    print("You are out of attempts")
